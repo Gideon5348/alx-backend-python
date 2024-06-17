@@ -2,7 +2,7 @@
 """
 3-to_str.py
 
-This module provides a function to convert a float to its string representation.
+This module provides a function to convert a float to its string rep.
 """
 
 
