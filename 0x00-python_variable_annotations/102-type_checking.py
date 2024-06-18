@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
+
 """
 102-type_checking.py
 
-This module provides function to zoom into an array by repeating its elements.
+This module provides a function to zoom into array by repeating its elements.
 """
 
 from typing import List
@@ -24,3 +25,10 @@ def zoom_array(lst: List, factor: int = 2) -> List:
         for _ in range(factor)
     ]
     return zoomed_in
+
+
+array = [12, 72, 91]
+
+zoom_2x = zoom_array(array)
+
+zoom_3x = zoom_array(array, 3)
