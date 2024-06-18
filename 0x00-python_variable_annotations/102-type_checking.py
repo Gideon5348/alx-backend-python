@@ -1,11 +1,22 @@
 #!/usr/bin/env python3
-'''Task 12's module.
+'''
+102-type_checking.py
+
+This module provides a function to zoom into array by repeating its elements.
 '''
 from typing import List, Tuple
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
-    '''Creates multiple copies of items in a tuple.
+    '''
+    Returns a list where each item in the list lst is repeated factor times.
+
+    Parameters:
+    lst (List): A list of elements.
+    factor (int): The number of times to repeat each item.
+
+    Returns:
+    List: A list with each item repeated factor times.
     '''
     zoomed_in: List = [
         item for item in lst
